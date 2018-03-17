@@ -1,0 +1,18 @@
+{
+  "name": "eric-colon-portfolio-website",
+  "version": "1.0.0",
+  "description": "Project Website for Udacity Nano Degree - Front End Developer",
+  "main": "index.js",
+  "repository": "git@github.com:ericcolon/fend-portfolio-project.git",
+  "author": "Eric Colon <ericcolon@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode development",
+    "dev": "webpack-dev-server --mode development --hot"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1",
+    "webpack": "^4.1.1",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
