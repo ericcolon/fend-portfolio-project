@@ -1,33 +1,7 @@
 @media screen and (max-width: 400px) {
-  .header-container {
-  display: flex;
-  justify-content: space-between;
-  border: 2px solid red;
-  flex-wrap: wrap;
-  }
-
-  .header-logo {
-    border: 2px solid green;
+  .header-container, .main-container, .project {
     display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-
-  .header-title {
-    border: 2px solid yellow;
-    width: 100%;
-  }
-
-  .header-title h1 {
-    text-align: center;
-    font-size: 3em;
-    margin: 0;
-    margin-top: 10px;
-  }
-
-  .header-title h3 {
-    text-align: center;
-    margin: 0;
-    margin-bottom: 10px;
+    align-items: center;
+    flex-direction: column;
   }
 }
