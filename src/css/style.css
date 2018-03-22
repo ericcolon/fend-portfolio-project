@@ -1,7 +1,25 @@
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
-p {
-  margin: 10px;
+h1,
+h2,
+h4 {
+  margin: 0;
+  color: #2d3c49;
+}
+
+header,
+main {
+  margin: 0.5em;
+}
+
+header,
+section,
+main {
+  box-sizing: border-box;
+}
+
+hr {
+  border-top: 1px solid #2d3c49;
 }

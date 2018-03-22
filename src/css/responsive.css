@@ -1,7 +1,46 @@
 @media screen and (max-width: 400px) {
-  .header-container, .main-container, .project {
+  .logo {
+    height: 48px;
+    margin-left: 1em;
+  }
+
+  .header-container {
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .header-title {
+    align-self: center;
+    margin-right: 1em;
+  }
+
+  .project img {
+    width: 100%;
+  }
+
+  .main-photo img {
+    height: auto;
+    width: 100%;
+  }
+
+  .main-photo {
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (min-width: 401px) {
+  .main-container,
+  .header-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header-container {
+    justify-content: space-around;
+  }
+
+  .project {
+    max-width: 33%;
+    border: 1px solid red;
   }
 }
