@@ -1,18 +1,23 @@
 @media screen and (max-width: 450px) {
   .logo {
-    height: 48px;
-    margin-left: 1em;
+    height: 60px;
     width: auto;
   }
 
   .header-container {
     display: flex;
     justify-content: space-between;
+    margin: 10px;
   }
 
-  .header-title {
-    align-self: center;
-    margin-right: 1em;
+  .main-container {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+  }
+
+  .title>h2 {
+    font-size: 36px;
   }
 
   .photo img {
@@ -27,37 +32,43 @@
 
   .project {
     display: flex;
-    border: 2px solid red;
     justify-content: space-around;
   }
 
   .project .photo {
-    border: 2px solid green;
-    width: 50%;
+    width: 40%;
     margin: 5px;
 
   }
 
   .project .description {
-    border: 2px solid blue;
-    width: 50%;
+    width: 60%;
     margin: 5px;
   }
 }
 
-@media screen and (min-width: 451px) {
-  .main-container,
+@media screen and (min-width: 451px) and (max-width: 768px) {
   .header-container {
+    border: 2px solid red;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 
-  .header-container {
-    justify-content: space-around;
+  .header-title {
+    text-align: end;
+    margin-right: 10px;
   }
 
-  .project {
-    max-width: 33%;
-    border: 1px solid red;
+  .header-container h2 {
+    font-size: 2em;
+  }
+
+  .header-container h4 {
+    font-size: 1.5em;
+  }
+
+  .main-photo {
+    display: none;
   }
 }
